@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Pembelajaran — Rafly Cyber Academy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="rafly_body">
+    <header id="rafly_header">
+        <div class="rafly_container rafly_nav_wrapper">
+            <a class="rafly_logo" href="index.html">
+                <span class="rafly_logo_mark" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                        <path d="M12 3l8 3.5v6c0 5.2-3.4 9.8-8 11.5-4.6-1.7-8-6.3-8-11.5v-6L12 3z"></path>
+                    </svg>
+                </span>
+                <span>Rafly Cyber Academy</span>
+            </a>
+
+            <button id="rafly_hamburger" type="button" aria-label="Buka atau tutup menu navigasi" aria-expanded="false" aria-controls="rafly_nav_menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <nav aria-label="Navigasi utama">
+                <ul id="rafly_nav_menu" class="rafly_nav_list">
+                    <li><a class="rafly_nav_link" href="index.html">Home</a></li>
+                    <li><a class="rafly_nav_link" href="about.html">About</a></li>
+                    <li><a class="rafly_nav_link" href="learning-paths.html">Learning Paths</a></li>
+                    <li><a class="rafly_nav_link" href="courses.html">Courses</a></li>
+                    <li><a class="rafly_nav_link" href="materials.html">Materials</a></li>
+                    <li><a class="rafly_nav_link" href="practice.html">Practice Lab</a></li>
+                    <li><a class="rafly_nav_link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="rafly_main">
+        <section class="rafly_page_banner">
+            <div class="rafly_container">
+                <span class="rafly_eyebrow">Learning Materials</span>
+                <h1 class="rafly_page_title">Materi Pembelajaran Keamanan Siber</h1>
+                <p class="rafly_section_desc">
+                    Setiap modul menyajikan penjelasan konsep, contoh ilustrasi simulasi yang aman, dan rangkuman inti untuk membantu pemahaman bertahap.
+                </p>
+            </div>
+        </section>
+
+        <section class="rafly_section">
+            <div class="rafly_container" style="display: flex; flex-direction: column; gap: 28px;">
+                <article id="mat-intro" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 1</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Introduction to Cyber Security</h2>
+                        <p class="rafly_card_text">
+                            Keamanan siber adalah praktik melindungi sistem komputer, jaringan, dan data digital dari akses tidak sah, gangguan, atau kerusakan. Fokusnya mencakup manusia, proses, dan teknologi secara seimbang.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Sebelum mempublikasikan aplikasi web, tim memeriksa pengaturan izin folder dan mematikan mode debug produksi.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Keamanan siber bukan sekadar memasang perangkat lunak, melainkan disiplin berkelanjutan dalam mengelola risiko sistem dan data.
+                    </div>
+                </article>
+
+                <article id="mat-cia-triad" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 2</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">CIA Triad</h2>
+                        <p class="rafly_card_text">
+                            CIA Triad terdiri dari <strong>Confidentiality</strong> (kerahasiaan informasi hanya bagi pihak berwenang), <strong>Integrity</strong> (keakuratan dan keutuhan data), serta <strong>Availability</strong> (ketersediaan sistem dan data saat dibutuhkan).
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Kontrol akses berbasis peran menjaga Confidentiality, checksum menjaga Integrity, dan pencadangan terjadwal mendukung Availability.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Menyeimbangkan kerahasiaan, integritas, dan ketersediaan adalah fondasi evaluasi kebijakan keamanan sistem.
+                    </div>
+                </article>
+
+                <article id="mat-networking" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 3</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Networking Fundamentals</h2>
+                        <p class="rafly_card_text">
+                            Komunikasi jaringan menggunakan alamat IP, port, dan protokol seperti TCP/IP, HTTP/HTTPS, serta DNS. Memahami alur paket membantu mengidentifikasi jalur akses dan pembatasan trafik.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Layanan HTTPS umumnya berjalan di port 443 dengan enkripsi TLS, sedangkan SSH umumnya menggunakan port 22.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Pemahaman alamat IP, port, dan protokol memudahkan konfigurasi firewall serta analisis konektivitas jaringan.
+                    </div>
+                </article>
+
+                <article id="mat-linux" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 4</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Linux Fundamentals</h2>
+                        <p class="rafly_card_text">
+                            Banyak server dan perangkat keamanan berjalan di lingkungan Linux. Penguasaan izin berkas (<em>read, write, execute</em>), kepemilikan <em>user/group</em>, dan pemeriksaan log sangat penting untuk administrasi yang aman.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi perintah: ls -la catatan.txt &amp;&amp; chmod 640 catatan.txt</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Prinsip <em>least privilege</em> pada izin berkas dan pengguna membantu membatasi dampak kesalahan konfigurasi.
+                    </div>
+                </article>
+
+                <article id="mat-owasp" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 5</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">OWASP Top 10</h2>
+                        <p class="rafly_card_text">
+                            OWASP Top 10 merupakan referensi kesadaran risiko keamanan aplikasi web yang paling sering ditemui, seperti kelemahan kontrol akses, kegagalan kriptografi, dan injeksi.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Memverifikasi otorisasi pada setiap endpoint API agar pengguna biasa tidak dapat mengakses data milik pengguna lain.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Mengacu pada OWASP Top 10 membantu memprioritaskan perbaikan celah paling berdampak pada aplikasi web.
+                    </div>
+                </article>
+
+                <article id="mat-sqli" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 6</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">SQL Injection</h2>
+                        <p class="rafly_card_text">
+                            SQL Injection terjadi ketika input pengguna digabung secara langsung ke dalam string perintah SQL tanpa pemisahan parameter, sehingga input dapat memanipulasi struktur kueri.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi mitigasi: Gunakan prepared statement / parameterized query alih-alih konkatenasi string input.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Parameterized query adalah pertahanan utama untuk mencegah manipulasi kueri SQL dari input pengguna.
+                    </div>
+                </article>
+
+                <article id="mat-xss" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 7</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Cross-Site Scripting (XSS)</h2>
+                        <p class="rafly_card_text">
+                            Cross-Site Scripting (XSS) terjadi ketika data yang dikendalikan pengguna ditampilkan di halaman web tanpa sanitasi atau konteks encoding yang sesuai, sehingga skrip berpotensi dijalankan browser.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi mitigasi: Gunakan textContent saat menulis teks ke DOM dan lakukan context-aware encoding pada output HTML.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Sanitasi dan encoding sesuai konteks tampilan mencegah input pengguna ditafsirkan sebagai skrip aktif.
+                    </div>
+                </article>
+
+                <article id="mat-password" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 8</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Password Security</h2>
+                        <p class="rafly_card_text">
+                            Keamanan kata sandi bergantung pada panjang/kompleksitas yang memadai, pencegahan penggunaan ulang sandi yang bocor, serta penyimpanan menggunakan fungsi hash adaptif dengan salt.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Aplikasi menyimpan digest hash + salt unik per akun, bukan menyimpan kata sandi mentah.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Jangan pernah menyimpan kata sandi dalam bentuk teks polos; gunakan hashing yang aman dan dukung autentikasi berlapis.
+                    </div>
+                </article>
+
+                <article id="mat-cryptography" class="rafly_card">
+                    <div>
+                        <span class="rafly_badge">Topik 9</span>
+                        <h2 class="rafly_card_title" style="margin-top: 10px;">Cryptography Fundamentals</h2>
+                        <p class="rafly_card_text">
+                            Kriptografi melindungi kerahasiaan dan integritas data melalui enkripsi simetris (satu kunci bersama), enkripsi asimetris (pasangan kunci publik dan privat), serta fungsi hash satu arah.
+                        </p>
+                        <div class="rafly_code_box">
+                            <code>Contoh simulasi: Enkripsi melindungi isi pesan saat transit/penyimpanan, sedangkan hash membantu memeriksa keutuhan berkas.</code>
+                        </div>
+                    </div>
+                    <div class="rafly_summary_box">
+                        <strong>Rangkuman:</strong> Pilih mekanisme kriptografi sesuai kebutuhan (enkripsi untuk kerahasiaan, hash untuk verifikasi integritas).
+                    </div>
+                </article>
+
+                <div class="rafly_btn_group">
+                    <a class="rafly_btn_primary" href="practice.html">Uji Pemahaman di Practice Lab</a>
+                    <a class="rafly_btn_secondary" href="courses.html">Kembali ke Katalog Kursus</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="rafly_footer">
+        <div class="rafly_container">
+            <div class="rafly_footer_grid">
+                <div>
+                    <a class="rafly_logo" href="index.html" style="margin-bottom: 12px;">
+                        <span>Rafly Cyber Academy</span>
+                    </a>
+                    <p class="rafly_card_text">
+                        Platform pembelajaran keamanan siber interaktif untuk tingkat pemula hingga menengah.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="rafly_card_title">Navigasi</h3>
+                    <ul class="rafly_footer_links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="learning-paths.html">Learning Paths</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="rafly_card_title">Eksplorasi &amp; Bantuan</h3>
+                    <ul class="rafly_footer_links">
+                        <li><a href="materials.html">Learning Materials</a></li>
+                        <li><a href="practice.html">Practice Lab</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rafly_footer_bottom">
+                <span>Rafly Cyber Academy — Edukasi Keamanan Siber</span>
+                <span>Seluruh latihan bersifat simulasi edukatif lokal.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
